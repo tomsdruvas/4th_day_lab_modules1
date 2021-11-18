@@ -3,6 +3,16 @@ from modules.output import *
 from data.task_list import *
 from modules.input import *
 
+answer = input("Would you like a new list? ")
+def user_input(answer):
+    
+    if answer == "yes":
+        tasks.clear
+        return tasks
+    
+
+user_input(answer)
+
 
 while (True):
     

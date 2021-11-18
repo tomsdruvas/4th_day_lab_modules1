@@ -7,7 +7,7 @@ answer = input("Would you like a new list? ")
 def user_input(answer):
     
     if answer == "yes":
-        tasks.clear
+        tasks.clear()
         return tasks
     
 
